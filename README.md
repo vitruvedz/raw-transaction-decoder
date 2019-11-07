@@ -1,4 +1,17 @@
 # Raw Transaction Decoder
+[![npm][npm-image]][npm-url]
+[![downloads][downloads-image]][downloads-url]
+[![js-standard-style][standard-image]][standard-url]
+
+
+[npm-image]: https://img.shields.io/npm/v/3dcoin.svg?style=flat
+[npm-url]: https://www.npmjs.org/package/raw-transaction-decoder
+
+[downloads-image]: https://img.shields.io/npm/dm/3dcoin.svg?style=flat
+[downloads-url]: https://www.npmjs.org/package/raw-transaction-decoder
+
+[standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
+[standard-url]: http://standardjs.com
 
 This library's methods return information of a transaction, given this transaction `HEX` as input.
 
