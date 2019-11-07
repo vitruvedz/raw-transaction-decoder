@@ -1,18 +1,22 @@
 {
-  "name": "transaction-hex-decoder",
-  "version": "1.0.2",
+  "name": "raw-transaction-decoder",
+  "version": "1.0.3",
   "description": "transaction-hex-decoder - Decode Transactions given their HEX",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "marcogbarcellos",
+  "author": "vitruvedz",
   "keywords": [
+    "3dcoin",
+    "3dc",
     "btc",
     "eth",
+    "block",
     "transactions",
     "tx",
     "rawtx",
+    "rawblock",
     "blockchain",
     "doge",
     "dash",
@@ -20,6 +24,7 @@
   ],
   "license": "ISC",
   "dependencies": {
+    "3dcore-lib": "^0.17.9",
     "bitcoinjs-lib": "^3.3.2",
     "rlp": "^2.0.0"
   },
@@ -29,10 +34,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcogbarcellos/transaction-hex-decoder.git"
+    "url": "git+https://github.com/vitruvedz/raw-transaction-decoder.git"
   },
   "bugs": {
-    "url": "https://github.com/marcogbarcellos/transaction-hex-decoder/issues"
+    "url": "https://github.com/vitruvedz/raw-transaction-decoder/issues"
   },
-  "homepage": "https://github.com/marcogbarcellos/transaction-hex-decoder#readme"
+  "homepage": "https://github.com/vitruvedz/raw-transaction-decoder#readme"
 }
