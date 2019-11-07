@@ -1,6 +1,6 @@
 {
   "name": "raw-transaction-decoder",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "transaction-hex-decoder - Decode Transactions given their HEX",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,8 @@
   "license": "ISC",
   "dependencies": {
     "3dcore-lib": "^0.17.9",
+    "js-sha3": "^0.8.0",
+    "@dashevo/x11-hash-js": "^1.0.2",
     "bitcoinjs-lib": "^3.3.2",
     "rlp": "^2.0.0"
   },
