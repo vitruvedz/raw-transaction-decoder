@@ -18,7 +18,7 @@ This library's methods return information of a transaction, given this transacti
 ```javascript
 const txHexDecoder = require("raw-transaction-decoder");
 
-// Transaction https://etherscan.io/tx/0x09b092b86ffc8f425b405d3ac0ef1ec51269fa024e64b4b5778961a4d588c982 -> Tool/utilities to check rawTx
+// Transaction https://3dcstats.net/tx/d6aa85dfb4942228923fda101a250c0f57a3bb1a7bf771fb26547848eb41ab5b -> Tool/utilities to check rawTx
 const EncodedRawTx3DCoin = "01000000010000000000000000000000000000000000000000000000000000000000000000ffffffff0603932a0c0109ffffffff020000000000000000232103c352f85d0525f52de32d757a709fa9c9cd756c96e9db1a017e5fde5189562cd8ac00b08ef01b0000001976a914f221eff78d9bc0199408f18c60bd4698c4e3a0d488ac00000000";
 const decode3dcRawTx = txHexDecoder.decodeEthRawTx(EncodedRawTx3DCoin);
 console.log("Decoded Transaction : "+JSON.stringify(decode3dcRawTx));
