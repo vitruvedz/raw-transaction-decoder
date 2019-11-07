@@ -1,4 +1,4 @@
-const data = require('@3dcore-lib');
+const data = require('3dcore-lib');
 
 module.exports = function(hex) {
     var block = data.Block(hex);
