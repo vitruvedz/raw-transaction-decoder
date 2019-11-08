@@ -1,6 +1,6 @@
 {
   "name": "raw-transaction-decoder",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "transaction-hex-decoder - Decode Transactions given their HEX",
   "main": "index.js",
   "scripts": {

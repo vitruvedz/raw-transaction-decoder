@@ -86,7 +86,7 @@ const txHexDecoder = require("raw-transaction-decoder");
 
 // Transaction https://3dcstats.net/block/0000002676e5dfe029b61ca3b4e0e24ccdb4a2baf391ac94eab8d0c0a98ae917 -> Tool/utilities to check rawTx
 const EncodedRawBlock3DCoin = "000000203d0e83a99b9188d8622146495dbd1b346c844e8f5e472e7d650df52d0500000044fbf8a902e03968093e1520bc697bc77a673d789491d279bf569a1b98602f29e5a4c35df3e66d1dbfe067040101000000010000000000000000000000000000000000000000000000000000000000000000ffffffff0603922a0c0101ffffffff020000000000000000232103409b22be667815da661beb29e27c1d87367dc20935bb01596776b83512f115f0ac00b08ef01b0000001976a91451c455c060d11792b1647a661e4befc9097614a588ac00000000";
-const decode = txHexDecoder.decode3dcRawBlock(EncodedRawBlock3DCoin);
+const decode = txHexDecoder.decode3dcRawBlock(Buffer.from(EncodedRawBlock3DCoin, "hex"));
 console.log("Decoded Transaction : "+JSON.stringify(decode));
 /* OUTPUT Example:
 { header:
