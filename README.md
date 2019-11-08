@@ -23,7 +23,7 @@ This library's methods return information of a transaction, given this transacti
 
 ## Usage
 
-- `npm install raw-transaction-decoder
+- npm install raw-transaction-decoder
 
 
 ### 3DCoin Raw Tx
