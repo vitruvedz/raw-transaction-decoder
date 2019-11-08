@@ -4,10 +4,10 @@
 [![js-standard-style][standard-image]][standard-url]
 
 
-[npm-image]: https://img.shields.io/npm/v/3dcoin.svg?style=flat
+[npm-image]: https://img.shields.io/npm/v/raw-transaction-decoder.svg?style=flat
 [npm-url]: https://www.npmjs.org/package/raw-transaction-decoder
 
-[downloads-image]: https://img.shields.io/npm/dm/3dcoin.svg?style=flat
+[downloads-image]: https://img.shields.io/npm/dm/raw-transaction-decoder.svg?style=flat
 [downloads-url]: https://www.npmjs.org/package/raw-transaction-decoder
 
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
